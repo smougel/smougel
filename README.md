@@ -9,15 +9,15 @@
 I've a background of 20 years as Software Engineer (Fullstack dev) and now I add a new card to my set as Data Scientist / AI Engineer.
 I love to learn new things about Deep learning / CNN / Sequence Models (Many thanks Andrew NG & Coursera)
 
-💻 Programming languages : Python, Javascript, Php
-🗂️ Databases : Maria DB / MySQL / Redis
-💍 Front : React / Redux / Css / HTML 5
-🔧 Web frameworks : Symfony / Laravel / Code Igniter
-🔩 DB frameworks : Active Records, Doctrine ORM
-⚙️ Backend : Writing of Workers & Daemons
-⌚ Load & Queue management : Beanstalkd
-📊 DataViz : Matplotlib , plotly, seaborn
-🧪 Data science : Pandas, numpy, scikit learn, tensorflow, pytorch, keras
+- 💻 Programming languages : Python, Javascript, Php
+- 🗂️ Databases : Maria DB / MySQL / Redis
+- 💍 Front : React / Redux / Css / HTML 5
+- 🔧 Web frameworks : Symfony / Laravel / Code Igniter
+- 🔩 DB frameworks : Active Records, Doctrine ORM
+- ⚙️ Backend : Writing of Workers & Daemons
+- ⌚ Load & Queue management : Beanstalkd
+- 📊 DataViz : Matplotlib , plotly, seaborn
+- 🧪 Data science : Pandas, numpy, scikit learn, tensorflow, pytorch, keras
 
 # Projects
 
@@ -58,7 +58,7 @@ Build a model to detect people able to repay their loan... or not...
 
 Tech used : Python, Scikit-learn, Matplotlib, Seaborn
 
-## Customer segmentation for e-commerce
+## Customer segmentation for e-commerce 👨 👧 🧓 👽 🙆
 
 Unsupervised learning task
 
@@ -78,3 +78,23 @@ Gain insights about user behavior and discover buyer characteristics
 
 📏 Metrics : ARI Score
 
+## AI for Restaurants 🍽️ 🍝
+
+😡 Customer dissatisfaction discovery
+🪄 Automatic photo classification : Menu card, Food picture 🍝, Outdoor picture
+
+Dataset : https://www.yelp.com/dataset
+
+💡 Process :
+- exploratory data analysis
+- data wrangling for NLP (🤬 stop words , lemmatization, stemming, tokenization)
+- data wrangling for photos (contrast normalization, resizing, noise filtering)
+- Topic discovery : LDA
+- Convolutional neural networks
+- Regularization (Dropout)
+- Exploration of filters learned by the CNN (Thanks to francois Chollet)
+- Use of Yelp API
+
+Tech used : Tensorflow, NLP, Sequence model, LSTM, CNN, Keras, Open CV
+
+## Bad Buzz Detection in comments
