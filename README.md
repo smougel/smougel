@@ -97,4 +97,35 @@ Dataset : https://www.yelp.com/dataset
 
 Tech used : Tensorflow, NLP, Sequence model, LSTM, CNN, Keras, Open CV
 
-## Bad Buzz Detection in comments
+## Bad Buzz Detection in comments 🗣️ 👍 / 👎 
+
+Dataset : https://www.kaggle.com/kazanova/sentiment140 (1.6M Tweets)
+Goal : Sentiment analysis from tweets. Benchmark with Microsoft Azure Sentiment Analysis.
+
+💡 Process :
+- exploratory data analysis
+- data wrangling (lemming / stemming / tokenization)
+- modelization (Basic to advanced : logistic regression, TF-IDF, LSTM)
+- benchmark with Azure Machine Learning Services
+
+🪛 Hyper parameter tuning
+📏 Metrics : F-Beta Score
+
+Tech used : Word embeddings (Word2Vec & FastText), Tensorflow & Keras
+
+## Image segmentation for autonomous driving 🤖 ❤️ 🚗
+
+Dataset : Cityscape
+
+💡 Process :
+- exploratory data analysis
+- data wrangling (Picture to binary mask)
+- data augmentation (Random cropping, flipping, mirroring)
+- modelization (Basic to advanced : Fully connected layers to U-Net architecture)
+- ☁️ training in the cloud (w/ Microsoft Azure)
+- Model serving via Flask API hosted on Microsoft Azure
+
+🪛 Hyper parameter tuning
+📏 Metrics : Jaccard index
+
+Tech used : Tensorflow, Keras, CNN, U-Net
