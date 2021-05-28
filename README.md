@@ -17,7 +17,7 @@ I love to learn new things about Deep learning / CNN / Sequence Models (Many tha
 - ⚙️ Backend : Writing of Workers & Daemons
 - ⌚ Load & Queue management : Beanstalkd
 - 📊 DataViz : Matplotlib , plotly, seaborn
-- 🧪 Data science : Pandas, numpy, scikit learn, tensorflow, pytorch, keras
+- 🧪 Data science : Pandas, numpy, scikit learn, Tensorflow, Pytorch, keras
 
 # Projects
 
@@ -122,10 +122,42 @@ Dataset : Cityscape
 - data wrangling (Picture to binary mask)
 - data augmentation (Random cropping, flipping, mirroring)
 - modelization (Basic to advanced : Fully connected layers to U-Net architecture)
-- ☁️ training in the cloud (w/ Microsoft Azure)
+- ☁️ training in the cloud (w/ Microsoft Azure : compute instance provisionning)
 - Model serving via Flask API hosted on Microsoft Azure
 
 🪛 Hyper parameter tuning
 📏 Metrics : Jaccard index
 
-Tech used : Tensorflow, Keras, CNN, U-Net
+Tech used : Tensorflow, Keras, CNN, U-Net, Flask, Azure Services
+
+## Content recommendation for news reading 🧚 🪄 📚
+
+Dataset : News Portal User Interactions by Globo.com
+https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom#clicks_sample.csv
+
+💡 Process :
+- exploratory data analysis (w/ t-SNE visualization of news embeddings)
+- data wrangling 
+- modelization : content filtering and collaborative filtering
+- ☁️ training in the cloud (w/ Microsoft Azure : compute instance provisionning)
+- Use of serverless Azure Function for model serving / Azure Storage
+- Integration with a node js mobile app
+
+📏 Metrics : Similarity measure (dot product, cosine)
+
+Tech used : Tensorflow, Sparse Tensor, Matrix factorization, Azure Services
+
+## Chatbot for vacation booking 🤖 🪄 🌴 ☀️
+
+Dataset : Microsoft frames dataset (Dialogs between two humans via a chat interface)
+https://www.microsoft.com/en-us/research/project/frames-dataset/
+
+💡 Process :
+- exploratory data analysis (w/ t-SNE visualization of news embeddings)
+- data wrangling
+- LUIS Training
+- Integration w/ Microsoft bot framework
+
+📏 Metrics : Similarity measure (dot product, cosine)
+
+Tech used : Microsoft LUIS, Microsoft Bot Framework, Azure application insight, Unit Testing
