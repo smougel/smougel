@@ -57,6 +57,7 @@ Build a model to detect people able to repay their loan... or not...
 🪛 Hyperparameter tuning with grid-search and cross-validation
 
 Tech used : Python, Scikit-learn, Matplotlib, Seaborn
+Project : https://github.com/smougel/credit_scoring/tree/master (Notebook)
 
 ## Customer segmentation for e-commerce 👨 👧 🧓 👽 🙆
 
