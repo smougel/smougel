@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on helping people to find a job (Analysis of Pole Emploi Dataset -> French job board)
+- 🔭 I’m the founder of https://www.seocopilot.fr : Helping compagnies to improve their SEO organicaly
 - 🌱 I’m currently learning about Data Science / AI / Deep Learning / Machine learning (Never ending process)
 - 👯 I’m looking to collaborate on everything that has a meaningful purpose when I have time !
 - 📫 How to reach me: https://www.linkedin.com/in/smougel/
